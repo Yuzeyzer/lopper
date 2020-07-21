@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+  width: 1173px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.menu-spisok {
+  display: flex;
+  list-style: none;
+}
+.products {
+  margin-right: 53px;
+  font-family: sans-serif;
+  font-size: 14.4px;
+	font-weight: 700;
+	color: #30233D;
+	letter-spacing: 2px;
+}
+.menu {
+  margin-left: 195px;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 14.4px;
+  font-weight: 700;
+}
+.contacts img {
+  margin-right: 18px;
+}
+.burger-menu {
+  margin-left: 100px;
+}
+
+.Arlan {
+  height: 360px;
+  background-image: url(../images/photo.png);
+}
+.arlan__title {
+	margin-top: 108px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 80px;
+  color: #f61067;
+}
+
+.arlan__subtitle {
+	margin-top: 9px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #f4f4ed;
+}
