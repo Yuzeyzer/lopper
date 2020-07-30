@@ -81,6 +81,7 @@ body {
 }
 
 .suptitle {
+  display: block;
   margin-bottom: 19px;
   font-style: normal;
   font-weight: 800;
@@ -135,7 +136,7 @@ body {
   color: #00f0b5;
 }
 .orange {
-  color: #F67110
+  color: #f67110;
 }
 .col-4 {
   width: 33.3333%;
@@ -174,7 +175,6 @@ body {
   margin: 0 -35px;
   padding-top: 70px;
 }
-
 .services__item {
   text-align: left;
   padding: 28px 35px;
@@ -187,5 +187,51 @@ body {
   font-weight: normal;
   font-size: 16.2px;
   line-height: 26px;
+  color: #776c82;
+}
+
+.wedo .container {
+  display: block;
+}
+.wedo__row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 128px;
+}
+.col-6 {
+  width: 50%;
+}
+img {
+  max-width: 100%;
+}
+.wedo__content {
+  padding-top: 70px;
+  padding-left: 12%;
+  padding-right: 22%;
+}
+.wedo__number {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #f61067;
+}
+.wedo__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  color: #30233d;
+  margin-top: 5px;
+  margin-bottom: 31px;
+}
+
+.wedo__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
   color: #776c82;
 }
