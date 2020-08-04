@@ -236,3 +236,40 @@ img {
   color: #776c82;
 }
 
+.testimonials {
+  margin-top: 180px;
+  padding-bottom: 136px;
+  text-align: center;
+  background-color: #fcfcfc;
+}
+.testimonials__slider {
+  width: 100%;
+}
+.slider__avatar {
+  position: relative;
+  width: 100%;
+}
+.slider__faces {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.slider__description {
+  font-family: Noticia Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 64px;
+  text-align: center;
+  color: #30233d;
+  max-width: 754px;
+  margin: 0 auto;
+}
+.slider__author cite {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #f61067;
+}

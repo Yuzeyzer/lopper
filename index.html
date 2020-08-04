@@ -8,6 +8,11 @@
       href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -215,7 +220,7 @@
           <div class="slider-item">
             <div class="slider__avatar">
               <img src="./images/testimonial-1.png" alt="" />
-              <img src="./images/faces.png" alt="" />
+              <img class="slider__faces" src="./images/faces.png" alt="" />
             </div>
             <p class="slider__description">
               Lectus arcu bibendum at varius. Adipiscing diam donec adipiscing tristique.
@@ -228,5 +233,17 @@
         </div>
       </div>
     </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+      $('.testimonials__slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      });
+    </script>
   </body>
 </html>
