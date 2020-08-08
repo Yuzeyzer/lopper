@@ -273,3 +273,9 @@ img {
   text-align: center;
   color: #f61067;
 }
+.slick-slide img {
+  display: inline-block;
+}
+.slick-prev .slick-arrow {
+  
+}
