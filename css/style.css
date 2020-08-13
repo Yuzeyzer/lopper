@@ -238,12 +238,16 @@ img {
 
 .testimonials {
   margin-top: 180px;
+  padding-top: 50px;
   padding-bottom: 136px;
   text-align: center;
   background-color: #fcfcfc;
 }
 .testimonials__slider {
   width: 100%;
+}
+.slick-slide {
+  outline: none;
 }
 .slider__avatar {
   position: relative;

@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px) {
+  .container {
+		padding: 0 20px;
+		overflow: hidden;
+  }
+  .menu,
+  .contacts {
+    display: none;
+  }
+  .burger-menu {
+    margin-left: 70vw;
+  }
+  .achievements__row,
+  .wedo__row {
+    flex-wrap: wrap;
+  }
+  .col-4,
+  .col-6 {
+    width: 100%;
+  }
+  .wedo__item {
+    padding-bottom: 50px;
+  }
+  .slider__description {
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #30233d;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .slick-prev.slick-arrow,
+  .slick-next.slick-arrow {
+		transform: translate(0,0);
+  }
+}
